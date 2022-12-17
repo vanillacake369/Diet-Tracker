@@ -34,7 +34,7 @@ namespace Expense_Tracker.Models
         {
             get
             {
-                return ((Category == null || Category.Type == "Expense") ? "- " : "+ ") + Amount.ToString("C0");
+                return ((Category == null || Category.Type == "Expense") ? "- " : "+ ") + Amount.ToString("");
             }
         }
 
